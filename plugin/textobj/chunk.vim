@@ -7,8 +7,8 @@ set cpo&vim
 
 call textobj#user#plugin('chunk', {
     \ '-' : {
-    \      'select-a' : 'ac', '*select-a-function*' : 'textobj#chunk#select_a',
-    \      'select-i' : 'ic', '*select-i-function*' : 'textobj#chunk#select_i',
+    \      'select-a' : 'aB', '*select-a-function*' : 'textobj#chunk#select_a',
+    \      'select-i' : 'iB', '*select-i-function*' : 'textobj#chunk#select_i',
     \   },
     \ })
 
